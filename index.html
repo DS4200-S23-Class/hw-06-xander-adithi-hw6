@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang='en'>
 
-
 <head>
   <meta charset='utf-8'>
-
+  <title>hw-06</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/d3.v6.1.1/d3.min.js"></script>
 </head>
 
-
 <body>
+  <h1>hw-06 - D3 Brushing & Linking</h1>
+  <div class="flex">
+    <!-- Left side of the page that includes both visualizations -->
+    <div class = "left">
+    <!--Petal_Length vs Sepal_Length scatterplot-->
+      <div id="vis1"></div>        
+    </div>
+    <!--Petal_Width vs Sepal_Width scatterplot-->
+    <div class="middle">
+      <div id="vis2"></div> 
+    </div>
+    <!--Iris species bar chart -->
+    <div class="right">
+      <div id="vis3"></div> 
+    </div>
+  </div>
  
+  <!-- connect webpage to Javascript file -->
+  <script src="js/d3.v6.1.1/main.js"></script>  
 </body>
 
 </html>
