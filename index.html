@@ -4,29 +4,49 @@
 <head>
   <meta charset='utf-8'>
   <title>hw-06</title>
+  <!--Connect the style sheet-->
   <link rel="stylesheet" href="style.css">
   <script src="js/d3.v6.1.1/d3.min.js"></script>
 </head>
 
 <body>
   <h1>hw-06 - D3 Brushing & Linking</h1>
+  <!--Create 3 equal columns-->
   <div class="flex">
-    <!-- Left side of the page that includes both visualizations -->
-    <div class = "left">
+    <!--Left column of the page-->
+    <div class = "col-width">
     <!--Petal_Length vs Sepal_Length scatterplot-->
+    <h3>Petal Length vs Sepal Length</h3>
       <div id="vis1"></div>        
     </div>
-    <!--Petal_Width vs Sepal_Width scatterplot-->
-    <div class="middle">
+    <!--Middle column of the page-->
+    <div class = "col-width">
+      <!--Petal_Width vs Sepal_Width scatterplot-->
+      <h3>Petal Width vs Sepal Width</h3>
       <div id="vis2"></div> 
     </div>
-    <!--Iris species bar chart -->
-    <div class="right">
+    <!--Right column of the page-->
+    <div class = "col-width">
+      <!--Iris species bar chart -->
+      <h3>Count of Iris Species</h3>
       <div id="vis3"></div> 
     </div>
   </div>
+
+  <div>
+    <!--Acknowledgements-->
+    <h2>Acknowledgments</h2>
+    <div>
+        <ul>
+            <li><a href="https://d3-graph-gallery.com/graph/interactivity_brush.html">https://d3-graph-gallery.com/graph/interactivity_brush.html</a></li>
+            <li><a href="https://d3js.org/">https://d3js.org/</a></li>
+            <li><a href="https://www.d3indepth.com/interaction/">https://www.d3indepth.com/interaction/</a></li>
+            <li><a href="https://observablehq.com/@tgale/lets-make-a-brushable-line-chart">https://observablehq.com/@tgale/lets-make-a-brushable-line-chart</a></li>
+        </ul>
+    </div>
+  </div>
  
-  <!-- connect webpage to Javascript file -->
+  <!--Connect webpage to Javascript file-->
   <script src="js/d3.v6.1.1/main.js"></script>  
 </body>
 

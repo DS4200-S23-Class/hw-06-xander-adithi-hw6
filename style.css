@@ -2,7 +2,7 @@ body {
     font-family: Arial;
 }
 
-  h1, h2 {
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -14,14 +14,12 @@ body {
     text-align: center;
 }
   
-.left {
-    width: 33.33%;
-  }
- 
-.middle {
+.col-width {
     width: 33.33%;
 }
 
-.right {
-    width: 33.33%;
+.selected {
+	opacity: 100%;
+	stroke: orange;
+	stroke-width: 4px;
 }
